@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section class = "entries">
+      <div class = "entry">
+        <h1>Title</h1>
+        <p>Rating</p>
+        <p>Descrition</p>
+        <p><a>Visit site</a></p>
+      </div>
+    </section>
+    <section class = "itemForm">
+      <form id = "newItem" class = "hidden">
+        <label for="SiteName">Website Name</label>
+        <input type="text" name="SiteName" class="js-name" required> <br>
+        <label for="SiteURL">Website URL</label>
+        <input type="text" name="SiteURL" class="js-url" required> <br>
+        <input type="text" name="SiteDesc" class="js-desc" placeholder="Description of Website" required> <br>
+        <label for="SiteURL">Website URL</label>
+        <input type="text" name="SiteURL" class="js-rate" required> <br>
+        <button type="submit">Enter</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <form id = "foot">
+      <button type="submit" id = 'showForm'>New Item</button>
+      <select></select>
+    </form>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="store.js"></script>
+  <script src="events.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

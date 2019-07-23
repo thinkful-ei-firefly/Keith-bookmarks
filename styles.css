@@ -1,0 +1,48 @@
+main{
+  background-color: aqua;
+}
+
+footer{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+}
+
+button{
+  height: 40px;
+  width: 100px;
+}
+
+.entries{
+  display: block;
+  margin: 10px;
+}
+
+.entry{
+  width: 100%;
+  border: solid 2px black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+input{
+  width: 60%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#newItem{
+  text-align: right;
+  border: solid 2px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hidden{
+  display: none;
+}
